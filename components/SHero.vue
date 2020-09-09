@@ -9,7 +9,7 @@
       gap="6"
     >
       <c-stack align="start" spacing="10">
-        <c-heading as="h1" line-height="1" font-size="4rem">
+        <c-heading as="h1" line-height="1" :font-size="['3rem', '3rem', '4rem']">
           Welcome to your new HQ
         </c-heading>
         <c-text font-size="lg">

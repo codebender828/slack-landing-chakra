@@ -3,12 +3,13 @@
     <c-flex
       min-h="100px"
       p="5"
+      py="8"
       :flex-dir="['column', 'column', 'row']"
       :align="['start', 'start', 'center']"
       :max-w="['100vw', '100vw', '2xl']"
       mx="auto"
     >
-      <c-text :max-w="['lg']" :mb="[3, 3, 0]" mr="auto">
+      <c-text :max-w="['90%', '400px']" :mb="[3, 3, 0]" mr="auto">
         Slack Frontiers is a free, virtual event to help you
         bring digital transformation to your organization and employees.
       </c-text>
@@ -22,7 +23,7 @@
         color="inherit"
         border-color="inherit"
       >
-        TRY FOR FREE
+        REGISTER TODAY
       </c-button>
       <c-button
         :d="['inline-flex', 'inline-flex', 'none']"

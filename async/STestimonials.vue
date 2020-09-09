@@ -36,9 +36,10 @@
             Head Farmer, SingleThread
           </c-text>
         </c-stack>
-        <c-image
+        <c-box
+          as="img"
           w="100%"
-          :src="require('~/assets/images/customer-story.png')"
+          :src="require('@/assets/images/customer-story.png')"
         />
       </c-grid>
     </c-stack>
